@@ -12,7 +12,7 @@ public class GuessTheNumber {
         int number = 200;
         int smallerNumber = 0;
         int biggerNumber = 100;
-        int randomNumber = rand.nextInt((100 - 1) + 1) + 1;
+        int randomNumber = rand.nextInt((100) + 1);
 
         System.out.println("GUESS THE NUMBER");
         while (number != randomNumber && count > 0) {
